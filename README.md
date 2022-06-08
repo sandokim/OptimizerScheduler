@@ -4,7 +4,9 @@
 
 #### Inductive bias
 
-Generalize a finite set of observation or make assumptions to perform any task at hand. This all is done by a learning algorithm of the machine. In Machine Learning, it aims to construct algorithms with the ability to learn to predict certain target outputs
+Generalize a finite set of observation or make assumptions to perform any task at hand. This all is done by a learning algorithm of the machine. In Machine Learning, it aims to construct algorithms with the ability to learn to predict certain target outputs.
+
+While the recent ViT/DeiT models abandon translation invariance in image classification even though it has long been shown to be crucial for visual modeling, we find that inductive bias that encourages certain translation invariance is still preferable for general-purpose visual modeling, particularly for the dense prediction tasks of object detection and semantic segmentation.
 
 # Data Conversion
 
