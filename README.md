@@ -1,5 +1,11 @@
 # Optimizer & Scheduler 동작원리
 
+# Terms
+
+#### Inductive bias
+
+Generalize a finite set of observation or make assumptions to perform any task at hand. This all is done by a learning algorithm of the machine. In Machine Learning, it aims to construct algorithms with the ability to learn to predict certain target outputs
+
 # Data Conversion
 
 # Eqaulity and Ineqaulity conditions
