@@ -8,6 +8,8 @@ We include most of the augmentation and regularization strategies of [63] in tra
 
 <img src="https://github.com/sandokim/Optimizer_Scheduler/blob/main/images/stochastic depth code.PNG" width="100%">
 
+[Deep Networks with Stochastic Depth](https://arxiv.org/abs/1603.09382)
+
 # Terms
 
 #### Inductive bias
@@ -38,6 +40,6 @@ We employ an AdamW optimizer for 90 epochs using a linear decay learning rate sc
 
 플롭스(FLOPS, FLoating point Operations Per Second)는 컴퓨터의 성능을 수치로 나타낼 때 주로 사용되는 단위이다. 초당 부동소수점 연산이라는 의미로 컴퓨터가 1초동안 수행할 수 있는 부동소수점 연산의 횟수를 기준으로 삼는다.
 
-#### Stochastic depth
+##### Gradient checkpointing
 
-[Deep Networks with Stochastic Depth](https://arxiv.org/abs/1603.09382)
+Gradient Checkpointing is a method used for reducing the memory footprint when training deep neural networks, at the cost of having a small increase in computation time.
