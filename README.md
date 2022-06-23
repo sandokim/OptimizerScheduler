@@ -10,6 +10,14 @@ We include most of the augmentation and regularization strategies of [63] in tra
 
 [Deep Networks with Stochastic Depth](https://arxiv.org/abs/1603.09382)
 
+Stochastic depth --> Skip connection에서 Identity function만 남기고 Conv Block Drop, 이 경우 code상에서는 ReLU만 남기 때문에 ReLU가 identity function으로 사용된다 볼 수 있다.
+
+<img src="https://github.com/sandokim/Optimizer_Scheduler/blob/main/images/stochastic depth.jpg" width="100%">
+
+Skip connection --> Dimension matching in ResNet
+
+<img src="https://github.com/sandokim/Optimizer_Scheduler/blob/main/images/dimension match resnet.jpg" width="100%">
+
 # Terms
 
 #### Inductive bias
