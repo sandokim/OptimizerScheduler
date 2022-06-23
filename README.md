@@ -4,7 +4,9 @@
 
 We include most of the augmentation and regularization strategies of [63] in training, including RandAugment [17], Mixup [77], Cutmix [75], random erasing [82] and stochastic depth [35], but not repeated augmentation [31] and Exponential Moving Average (EMA) [45] which do not enhance performance. Note that this is contrary to [63] where repeated augmentation is crucial to stabilize the training of ViT. An increasing degree of stochastic depth augmentation is employed for larger models, i.e. 0.2, 0.3, 0.5 for Swin-T, Swin-S, and Swin-B, respectively
 
-#### Stochastic depth
+#### Stochastic depth code & how to quote it
+
+<img src="https://github.com/sandokim/Optimizer_Scheduler/blob/main/images/stochastic depth code.PNG" width="100%">
 
 # Terms
 
